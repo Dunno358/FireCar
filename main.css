@@ -1,0 +1,150 @@
+body
+{
+    background: black;
+}
+header
+{
+    background: url("auta2.jpg");
+    position: relative;
+    left: 1%;
+    height: 350px;
+    color:red;
+    background-size: cover;
+}
+hr
+{
+    border: 1px solid red;
+}
+#tytul
+{
+    text-align: center;
+    margin-left: 10%;
+    font-size: 60px;
+    color: red;
+    font-style: italic;
+}
+#tytul2
+{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-left: 10%;
+    font-style: italic;
+}
+#lewalinia
+{
+    height: 100%;
+    border-left: 6px solid maroon;
+    position: fixed;
+}
+#prawalinia
+{
+    height: 100%;
+    border-right: 6px solid maroon;
+    position: fixed;
+    left: 99%;
+}
+#menu
+{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.menu
+{
+    padding: 10px;  
+    color: #8c0703;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    border-right: 3px solid #8c0703;
+    border-left: 3px solid #8c0703;
+}
+.menu:hover
+{
+    padding: 20px;
+    font-size: 35px;
+    text-decoration: underline;
+    color: red; 
+}
+#kontakt
+{
+    color: #8c0703;
+    margin-left: 5%;
+    font-size: 25px;
+}
+#onas
+{
+    color: #8c0703;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    background: url('baner.jpg');
+    background-size: cover;
+}
+#mustang
+{
+    margin-left: 15%;
+}
+/*Podstrony*/
+#podtytul_sport
+{
+    color: rgb(161, 6, 6);
+    font-size: 40px;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 7%;
+    font-weight: bold;
+}
+.auta_pokaz
+{
+    margin: 5%;
+}
+.sports
+{
+    color: maroon;
+    border: 2px solid maroon;
+    margin-left: 15%;
+    width: 930px;
+}
+.sportzdj
+{
+    width: 600px;
+    height: 400px;
+    left: 33%;
+    top: 0.5%;
+    position: relative;
+}
+.sporttekst
+{
+    position: absolute;
+    margin-left: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*formularz*/
+#form_tytul
+{
+    color: darkgray;
+    margin-left: 20%;
+    font-size: 50px;
+}
+.info1
+{
+    border: 3px outset white;
+    color: darkgray;
+    }
+#pytanie
+{
+    color: darkgray;
+}
+.przycisk
+{
+    border: 3px outset darkgray;
+    border-radius: 30%;
+}
+.przycisk:active
+{
+    background: darkred;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Dominik Kusztal">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="sedan.ico">
+        <title>Formularz wypożyczenia</title>
+    </head>
+    <body style="background: url('bugatti.jpg');background-size: cover;">
+        <form id="main"
+        action="script.php" 
+        method="POST" 
+        autocomplete="off" 
+        novalidate="novalidate" 
+        enctype="text/plain"
+        style="margin-top: 7%;"
+        >
+        <label id="form_tytul"><strong>Wypełnij formularz aby potwierdzić</strong></label>
+        <br>
+        <hr style="border: 3px dotted darkgray;">
+        <br>
+        <label style="margin-left: 30%;" class="info1"><input required="required" type="text" name="Name" size="25" placeholder="Podaj imię..."/></label>
+        <label  class="info1"><input required type="text" name="Name2" size="25" placeholder="Podaj nazwisko..." /></label>
+        <br /><br />
+        <label style="margin-left: 30%;" class="info1"><input required type="text" name="Age" size="25" placeholder="Podaj wiek..." /></label>
+        <label class="info1"><input required type="text" name="Mail" size="25" placeholder="Podaj adres e-mail..." /></label>
+        <br /><br />
+        <label style="margin-left: 30%;" class="info1"><input required type="text" name="pesel" size="25" placeholder="Podaj PESEL..." /></label>
+        <label class="info1"><input required type="text" name="car" size="25" placeholder="Podaj nr prawa jazdy..." /></label>
+        <br><br>
+        <div style="margin-left: 40%;">
+        <label id="pytanie"><br><strong>Prawo jazdy posiadam od:</strong></label><br>
+        <br>
+        <label><input class="info1" type="number" name="lata"></label><br>
+        </div>
+        </label>
+
+        <hr style="border: 3px dotted darkgray;" />
+        <div style="margin-left: 35%;">
+        <label style="color: rgb(70, 69, 69);"><input  required="required" type="checkbox" name="btn_accept"/><strong>Zgadzam się na przetwarzanie moich danych osobowych.</strong></label>
+        <br /><br />
+        <label><input style="margin-left: 15%;"  class="przycisk" type="reset" name="btn_clear"/></label>
+        <label><input  class="przycisk" type="submit" name="btn_submit"/></label>
+        </div>
+    
+        </form>
+    </body>
+</html>
